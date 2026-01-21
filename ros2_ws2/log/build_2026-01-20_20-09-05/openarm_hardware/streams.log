@@ -1,0 +1,37 @@
+[0.024s] Invoking command in '/home/openarm/ros2_ws2/build/openarm_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openarm/ros2_ws/install/my_arm_control:/home/openarm/ros2_ws/install/hello_moveit_py:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_hardware -- -j4 -l4
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target openarm_hardware[0m
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_hardware.dir/src/v10_simple_hardware.cpp.o[0m
+[4.814s] [100%] [32m[1mLinking CXX shared library libopenarm_hardware.so[0m
+[5.109s] [100%] Built target openarm_hardware
+[5.124s] Invoked command in '/home/openarm/ros2_ws2/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openarm/ros2_ws/install/my_arm_control:/home/openarm/ros2_ws/install/hello_moveit_py:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_hardware -- -j4 -l4
+[5.125s] Invoking command in '/home/openarm/ros2_ws2/build/openarm_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openarm/ros2_ws/install/my_arm_control:/home/openarm/ros2_ws/install/hello_moveit_py:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_hardware
+[5.133s] -- Install configuration: ""
+[5.133s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/openarm_hardware.xml
+[5.133s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/lib/libopenarm_hardware.so
+[5.136s] -- Set runtime path of "/home/openarm/ros2_ws2/install/openarm_hardware/lib/libopenarm_hardware.so" to ""
+[5.136s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/include
+[5.136s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware
+[5.136s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware/v10_simple_hardware.hpp
+[5.137s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware/visibility_control.h
+[5.137s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/library_path.sh
+[5.137s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/library_path.dsv
+[5.137s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/package_run_dependencies/openarm_hardware
+[5.137s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/parent_prefix_path/openarm_hardware
+[5.138s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.sh
+[5.138s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.dsv
+[5.138s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/path.sh
+[5.138s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/path.dsv
+[5.138s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.bash
+[5.138s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.sh
+[5.138s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.zsh
+[5.139s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.dsv
+[5.139s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/package.dsv
+[5.139s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/packages/openarm_hardware
+[5.139s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarm_hardware
+[5.139s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.139s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[5.139s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.139s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig.cmake
+[5.140s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig-version.cmake
+[5.141s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/package.xml
+[5.141s] Invoked command in '/home/openarm/ros2_ws2/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openarm/ros2_ws/install/my_arm_control:/home/openarm/ros2_ws/install/hello_moveit_py:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_hardware

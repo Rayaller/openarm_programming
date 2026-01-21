@@ -1,0 +1,28 @@
+[0.027s] Invoking command in '/home/openarm/ros2_ws2/build/openarm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_bringup -- -j4 -l4
+[0.093s] Invoked command in '/home/openarm/ros2_ws2/build/openarm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_bringup -- -j4 -l4
+[0.122s] Invoking command in '/home/openarm/ros2_ws2/build/openarm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_bringup
+[0.150s] -- Install configuration: ""
+[0.150s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/launch
+[0.150s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/launch/openarm.bimanual.launch.py
+[0.150s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/launch/openarm.launch.py
+[0.151s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/config
+[0.151s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/config/v10_controllers
+[0.151s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/config/v10_controllers/openarm_v10_controllers.yaml
+[0.151s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/config/v10_controllers/openarm_v10_bimanual_controllers_wildcard.yaml
+[0.151s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/config/v10_controllers/openarm_v10_bimanual_controllers.yaml
+[0.151s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/ament_index/resource_index/package_run_dependencies/openarm_bringup
+[0.152s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/ament_index/resource_index/parent_prefix_path/openarm_bringup
+[0.152s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/environment/path.sh
+[0.158s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/environment/path.dsv
+[0.159s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/local_setup.bash
+[0.159s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/local_setup.sh
+[0.159s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/local_setup.zsh
+[0.159s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/local_setup.dsv
+[0.159s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/package.dsv
+[0.160s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/ament_index/resource_index/packages/openarm_bringup
+[0.160s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/cmake/openarm_bringupConfig.cmake
+[0.161s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/cmake/openarm_bringupConfig-version.cmake
+[0.161s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_bringup/share/openarm_bringup/package.xml
+[0.179s] Invoked command in '/home/openarm/ros2_ws2/build/openarm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_bringup

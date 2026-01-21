@@ -1,0 +1,6 @@
+Invoking command in '/home/openarm/ros2_ws2/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/openarm/ros2_ws2/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/openarm/ros2_ws2/install/openarm_description
+Invoked command in '/home/openarm/ros2_ws2/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/openarm/ros2_ws2/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/openarm/ros2_ws2/install/openarm_description
+Invoking command in '/home/openarm/ros2_ws2/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_description -- -j4 -l4
+Invoked command in '/home/openarm/ros2_ws2/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_description -- -j4 -l4
+Invoking command in '/home/openarm/ros2_ws2/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_description
+Invoked command in '/home/openarm/ros2_ws2/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_description

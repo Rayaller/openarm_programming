@@ -1,0 +1,103 @@
+[0.028s] Invoking command in '/home/openarm/ros2_ws2/build/openarm_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_hardware -- -j4 -l4
+[0.070s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.518s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.524s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.536s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.028s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.057s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.072s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.091s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.105s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.199s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.203s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.208s] -- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.214s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.223s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.225s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.353s] -- Configured cppcheck include dirs: /home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include
+[1.353s] -- Configured cppcheck exclude dirs and/or files: 
+[1.354s] -- Added test 'lint_cmake' to check CMake code style
+[1.356s] -- Added test 'uncrustify' to check C / C++ code style
+[1.356s] -- Configured uncrustify additional arguments: 
+[1.357s] -- Added test 'xmllint' to check XML markup files
+[1.361s] -- Configuring done
+[1.389s] -- Generating done
+[1.404s] -- Build files have been written to: /home/openarm/ros2_ws2/build/openarm_hardware
+[1.458s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.459s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.460s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.460s] [ 33%] [32mBuilding CXX object CMakeFiles/openarm_hardware.dir/src/openarm_hardware.cpp.o[0m
+[4.952s] [ 41%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[5.071s] [ 41%] Built target gmock_main
+[7.964s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.069s] [ 50%] Built target gmock
+[8.080s] [ 58%] [32mBuilding CXX object CMakeFiles/openarm_hardware.dir/src/motor_control.cpp.o[0m
+[8.525s] [ 66%] [32mBuilding CXX object CMakeFiles/openarm_hardware.dir/src/motor.cpp.o[0m
+[9.167s] [ 75%] [32mBuilding CXX object CMakeFiles/openarm_hardware.dir/src/canbus.cpp.o[0m
+[9.173s] In file included from [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:18[m[K:
+[9.173s] [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:[m[K In constructor ‘[01m[KMotor::Motor(DM_Motor_Type, uint16_t, uint16_t)[m[K’:
+[9.173s] [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:109:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KMotor::MotorType[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.173s]   109 |   DM_Motor_Type [01;35m[KMotorType[m[K;
+[9.174s]       |                 [01;35m[K^~~~~~~~~[m[K
+[9.174s] [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:105:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint16_t Motor::SlaveID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.174s]   105 |   uint16_t [01;35m[KSlaveID[m[K;
+[9.174s]       |            [01;35m[K^~~~~~~[m[K
+[9.174s] [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:20:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.174s]    20 | [01;35m[KMotor[m[K::Motor(DM_Motor_Type motorType, uint16_t slaveID, uint16_t masterID)
+[9.174s]       | [01;35m[K^~~~~[m[K
+[9.175s] In file included from [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:18[m[K:
+[9.175s] [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:127:19:[m[K [01;35m[Kwarning: [m[K‘[01m[KMotor::state_trotor[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.175s]   127 |   int state_tmos, [01;35m[Kstate_trotor[m[K;
+[9.175s]       |                   [01;35m[K^~~~~~~~~~~~[m[K
+[9.175s] [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:107:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool Motor::isEnable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.176s]   107 |   bool [01;35m[KisEnable[m[K;
+[9.176s]       |        [01;35m[K^~~~~~~~[m[K
+[9.176s] [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:20:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.176s]    20 | [01;35m[KMotor[m[K::Motor(DM_Motor_Type motorType, uint16_t slaveID, uint16_t masterID)
+[9.176s]       | [01;35m[K^~~~~[m[K
+[9.710s] [ 83%] [32m[1mLinking CXX shared library libopenarm_hardware.so[0m
+[9.962s] [ 83%] Built target openarm_hardware
+[9.988s] [ 91%] [32mBuilding CXX object CMakeFiles/test_openarm_hardware.dir/test/test_openarm_hardware.cpp.o[0m
+[12.349s] [100%] [32m[1mLinking CXX executable test_openarm_hardware[0m
+[12.696s] [100%] Built target test_openarm_hardware
+[12.711s] Invoked command in '/home/openarm/ros2_ws2/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm_hardware -- -j4 -l4
+[12.713s] Invoking command in '/home/openarm/ros2_ws2/build/openarm_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_hardware
+[12.725s] -- Install configuration: ""
+[12.727s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/openarm_hardware.xml
+[12.727s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/lib/libopenarm_hardware.so
+[12.729s] -- Set runtime path of "/home/openarm/ros2_ws2/install/openarm_hardware/lib/libopenarm_hardware.so" to ""
+[12.730s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/include
+[12.730s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware
+[12.730s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware/motor_control.hpp
+[12.730s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware/openarm_hardware.hpp
+[12.731s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware/motor.hpp
+[12.731s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware/canbus.hpp
+[12.731s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/include/openarm_hardware/visibility_control.h
+[12.731s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/library_path.sh
+[12.731s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/library_path.dsv
+[12.732s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/package_run_dependencies/openarm_hardware
+[12.732s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/parent_prefix_path/openarm_hardware
+[12.732s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.sh
+[12.732s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.dsv
+[12.732s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/path.sh
+[12.733s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/environment/path.dsv
+[12.733s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.bash
+[12.733s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.sh
+[12.733s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.zsh
+[12.733s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/local_setup.dsv
+[12.734s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/package.dsv
+[12.734s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/packages/openarm_hardware
+[12.734s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarm_hardware
+[12.734s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.734s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[12.734s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.735s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig.cmake
+[12.735s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig-version.cmake
+[12.735s] -- Installing: /home/openarm/ros2_ws2/install/openarm_hardware/share/openarm_hardware/package.xml
+[12.738s] Invoked command in '/home/openarm/ros2_ws2/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm_hardware

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing hello_moveit_py.egg-info/PKG-INFO
+writing dependency_links to hello_moveit_py.egg-info/dependency_links.txt
+writing entry points to hello_moveit_py.egg-info/entry_points.txt
+writing requirements to hello_moveit_py.egg-info/requires.txt
+writing top-level names to hello_moveit_py.egg-info/top_level.txt
+reading manifest file 'hello_moveit_py.egg-info/SOURCES.txt'
+writing manifest file 'hello_moveit_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello-moveit-py.egg-link (link to .)
+Installing run_moveit script to /home/openarm/ros2_ws2/install/hello_moveit_py/lib/hello_moveit_py
+
+Installed /home/openarm/ros2_ws2/build/hello_moveit_py
+running symlink_data
+symbolically linking /home/openarm/ros2_ws2/build/hello_moveit_py/resource/hello_moveit_py -> /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index/resource_index/packages
+symbolically linking /home/openarm/ros2_ws2/build/hello_moveit_py/package.xml -> /home/openarm/ros2_ws2/install/hello_moveit_py/share/hello_moveit_py

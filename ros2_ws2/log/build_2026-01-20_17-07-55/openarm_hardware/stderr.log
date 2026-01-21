@@ -1,0 +1,21 @@
+In file included from [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:18[m[K:
+[01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:[m[K In constructor ‘[01m[KMotor::Motor(DM_Motor_Type, uint16_t, uint16_t)[m[K’:
+[01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:109:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KMotor::MotorType[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  109 |   DM_Motor_Type [01;35m[KMotorType[m[K;
+      |                 [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:105:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint16_t Motor::SlaveID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  105 |   uint16_t [01;35m[KSlaveID[m[K;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:20:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 | [01;35m[KMotor[m[K::Motor(DM_Motor_Type motorType, uint16_t slaveID, uint16_t masterID)
+      | [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:18[m[K:
+[01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:127:19:[m[K [01;35m[Kwarning: [m[K‘[01m[KMotor::state_trotor[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  127 |   int state_tmos, [01;35m[Kstate_trotor[m[K;
+      |                   [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/include/openarm_hardware/motor.hpp:107:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool Motor::isEnable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  107 |   bool [01;35m[KisEnable[m[K;
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/openarm/ros2_ws2/src/openarm_ros2/openarm_hardware/src/motor.cpp:20:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 | [01;35m[KMotor[m[K::Motor(DM_Motor_Type motorType, uint16_t slaveID, uint16_t masterID)
+      | [01;35m[K^~~~~[m[K

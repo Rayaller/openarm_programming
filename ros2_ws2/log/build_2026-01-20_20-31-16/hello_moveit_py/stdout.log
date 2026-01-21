@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/hello_moveit_py/hello_moveit_py.egg-info
+writing ../../build/hello_moveit_py/hello_moveit_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/hello_moveit_py/hello_moveit_py.egg-info/dependency_links.txt
+writing entry points to ../../build/hello_moveit_py/hello_moveit_py.egg-info/entry_points.txt
+writing requirements to ../../build/hello_moveit_py/hello_moveit_py.egg-info/requires.txt
+writing top-level names to ../../build/hello_moveit_py/hello_moveit_py.egg-info/top_level.txt
+writing manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/openarm/ros2_ws2/build/hello_moveit_py/build
+creating /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib
+creating /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+copying hello_moveit_py/moveit_client.py -> /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+copying hello_moveit_py/move_robot.py -> /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+copying hello_moveit_py/__init__.py -> /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+running install
+running install_lib
+creating /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+copying /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py/moveit_client.py -> /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+copying /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py/move_robot.py -> /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+copying /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py/__init__.py -> /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+byte-compiling /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py/moveit_client.py to moveit_client.cpython-310.pyc
+byte-compiling /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py/move_robot.py to move_robot.cpython-310.pyc
+byte-compiling /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index
+creating /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index/resource_index
+creating /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index/resource_index/packages
+copying resource/hello_moveit_py -> /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/openarm/ros2_ws2/install/hello_moveit_py/share/hello_moveit_py
+running install_egg_info
+Copying ../../build/hello_moveit_py/hello_moveit_py.egg-info to /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing run_moveit script to /home/openarm/ros2_ws2/install/hello_moveit_py/lib/hello_moveit_py
+writing list of installed files to '/home/openarm/ros2_ws2/build/hello_moveit_py/install.log'

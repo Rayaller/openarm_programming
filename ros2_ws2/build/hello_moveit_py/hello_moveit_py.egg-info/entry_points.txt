@@ -1,0 +1,3 @@
+[console_scripts]
+run_moveit = hello_moveit_py.move_robot:main
+

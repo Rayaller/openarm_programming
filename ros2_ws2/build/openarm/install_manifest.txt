@@ -1,0 +1,15 @@
+/home/openarm/ros2_ws2/install/openarm/share/ament_index/resource_index/package_run_dependencies/openarm
+/home/openarm/ros2_ws2/install/openarm/share/ament_index/resource_index/parent_prefix_path/openarm
+/home/openarm/ros2_ws2/install/openarm/share/openarm/environment/ament_prefix_path.sh
+/home/openarm/ros2_ws2/install/openarm/share/openarm/environment/ament_prefix_path.dsv
+/home/openarm/ros2_ws2/install/openarm/share/openarm/environment/path.sh
+/home/openarm/ros2_ws2/install/openarm/share/openarm/environment/path.dsv
+/home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.bash
+/home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.sh
+/home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.zsh
+/home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.dsv
+/home/openarm/ros2_ws2/install/openarm/share/openarm/package.dsv
+/home/openarm/ros2_ws2/install/openarm/share/ament_index/resource_index/packages/openarm
+/home/openarm/ros2_ws2/install/openarm/share/openarm/cmake/openarmConfig.cmake
+/home/openarm/ros2_ws2/install/openarm/share/openarm/cmake/openarmConfig-version.cmake
+/home/openarm/ros2_ws2/install/openarm/share/openarm/package.xml

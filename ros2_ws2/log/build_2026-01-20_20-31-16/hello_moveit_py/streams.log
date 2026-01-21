@@ -1,0 +1,40 @@
+[1.061s] Invoking command in '/home/openarm/ros2_ws2/src/hello_moveit_py': PYTHONPATH=/home/openarm/ros2_ws2/build/hello_moveit_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello_moveit_py build --build-base /home/openarm/ros2_ws2/build/hello_moveit_py/build install --record /home/openarm/ros2_ws2/build/hello_moveit_py/install.log --single-version-externally-managed install_data
+[1.322s] running egg_info
+[1.323s] creating ../../build/hello_moveit_py/hello_moveit_py.egg-info
+[1.323s] writing ../../build/hello_moveit_py/hello_moveit_py.egg-info/PKG-INFO
+[1.323s] writing dependency_links to ../../build/hello_moveit_py/hello_moveit_py.egg-info/dependency_links.txt
+[1.324s] writing entry points to ../../build/hello_moveit_py/hello_moveit_py.egg-info/entry_points.txt
+[1.324s] writing requirements to ../../build/hello_moveit_py/hello_moveit_py.egg-info/requires.txt
+[1.324s] writing top-level names to ../../build/hello_moveit_py/hello_moveit_py.egg-info/top_level.txt
+[1.324s] writing manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+[1.327s] reading manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+[1.327s] writing manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+[1.328s] running build
+[1.328s] running build_py
+[1.328s] creating /home/openarm/ros2_ws2/build/hello_moveit_py/build
+[1.329s] creating /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib
+[1.329s] creating /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+[1.330s] copying hello_moveit_py/moveit_client.py -> /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+[1.330s] copying hello_moveit_py/move_robot.py -> /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+[1.330s] copying hello_moveit_py/__init__.py -> /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py
+[1.330s] running install
+[1.330s] running install_lib
+[1.331s] creating /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+[1.331s] copying /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py/moveit_client.py -> /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+[1.332s] copying /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py/move_robot.py -> /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+[1.332s] copying /home/openarm/ros2_ws2/build/hello_moveit_py/build/lib/hello_moveit_py/__init__.py -> /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py
+[1.332s] byte-compiling /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py/moveit_client.py to moveit_client.cpython-310.pyc
+[1.333s] byte-compiling /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py/move_robot.py to move_robot.cpython-310.pyc
+[1.334s] byte-compiling /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py/__init__.py to __init__.cpython-310.pyc
+[1.334s] running install_data
+[1.334s] creating /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index
+[1.334s] creating /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index/resource_index
+[1.334s] creating /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index/resource_index/packages
+[1.334s] copying resource/hello_moveit_py -> /home/openarm/ros2_ws2/install/hello_moveit_py/share/ament_index/resource_index/packages
+[1.334s] copying package.xml -> /home/openarm/ros2_ws2/install/hello_moveit_py/share/hello_moveit_py
+[1.335s] running install_egg_info
+[1.337s] Copying ../../build/hello_moveit_py/hello_moveit_py.egg-info to /home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages/hello_moveit_py-0.0.0-py3.10.egg-info
+[1.337s] running install_scripts
+[1.360s] Installing run_moveit script to /home/openarm/ros2_ws2/install/hello_moveit_py/lib/hello_moveit_py
+[1.360s] writing list of installed files to '/home/openarm/ros2_ws2/build/hello_moveit_py/install.log'
+[1.406s] Invoked command in '/home/openarm/ros2_ws2/src/hello_moveit_py' returned '0': PYTHONPATH=/home/openarm/ros2_ws2/build/hello_moveit_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/openarm/ros2_ws2/install/hello_moveit_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello_moveit_py build --build-base /home/openarm/ros2_ws2/build/hello_moveit_py/build install --record /home/openarm/ros2_ws2/build/hello_moveit_py/install.log --single-version-externally-managed install_data

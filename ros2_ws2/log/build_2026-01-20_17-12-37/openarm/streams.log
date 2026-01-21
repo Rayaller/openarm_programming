@@ -1,0 +1,20 @@
+[0.032s] Invoking command in '/home/openarm/ros2_ws2/build/openarm': CMAKE_PREFIX_PATH=/home/openarm/ros2_ws2/install/openarm_bimanual_moveit_config:/home/openarm/ros2_ws2/install/openarm_hardware:/home/openarm/ros2_ws2/install/openarm_description:/home/openarm/ros2_ws2/install/openarm_bringup:/home/openarm/ros2_ws2/install/openarm:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm -- -j4 -l4
+[0.109s] Invoked command in '/home/openarm/ros2_ws2/build/openarm' returned '0': CMAKE_PREFIX_PATH=/home/openarm/ros2_ws2/install/openarm_bimanual_moveit_config:/home/openarm/ros2_ws2/install/openarm_hardware:/home/openarm/ros2_ws2/install/openarm_description:/home/openarm/ros2_ws2/install/openarm_bringup:/home/openarm/ros2_ws2/install/openarm:/opt/ros/humble /usr/bin/cmake --build /home/openarm/ros2_ws2/build/openarm -- -j4 -l4
+[0.112s] Invoking command in '/home/openarm/ros2_ws2/build/openarm': CMAKE_PREFIX_PATH=/home/openarm/ros2_ws2/install/openarm_bimanual_moveit_config:/home/openarm/ros2_ws2/install/openarm_hardware:/home/openarm/ros2_ws2/install/openarm_description:/home/openarm/ros2_ws2/install/openarm_bringup:/home/openarm/ros2_ws2/install/openarm:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm
+[0.124s] -- Install configuration: ""
+[0.125s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/ament_index/resource_index/package_run_dependencies/openarm
+[0.125s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/ament_index/resource_index/parent_prefix_path/openarm
+[0.126s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/environment/ament_prefix_path.dsv
+[0.127s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/environment/path.sh
+[0.127s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/environment/path.dsv
+[0.127s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.bash
+[0.127s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.sh
+[0.127s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.zsh
+[0.128s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/local_setup.dsv
+[0.128s] -- Installing: /home/openarm/ros2_ws2/install/openarm/share/openarm/package.dsv
+[0.128s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/ament_index/resource_index/packages/openarm
+[0.128s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/cmake/openarmConfig.cmake
+[0.128s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/cmake/openarmConfig-version.cmake
+[0.129s] -- Up-to-date: /home/openarm/ros2_ws2/install/openarm/share/openarm/package.xml
+[0.132s] Invoked command in '/home/openarm/ros2_ws2/build/openarm' returned '0': CMAKE_PREFIX_PATH=/home/openarm/ros2_ws2/install/openarm_bimanual_moveit_config:/home/openarm/ros2_ws2/install/openarm_hardware:/home/openarm/ros2_ws2/install/openarm_description:/home/openarm/ros2_ws2/install/openarm_bringup:/home/openarm/ros2_ws2/install/openarm:/opt/ros/humble /usr/bin/cmake --install /home/openarm/ros2_ws2/build/openarm
